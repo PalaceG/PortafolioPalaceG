@@ -78,7 +78,13 @@ h6 {
 	z-index: 9997;
 	transition: all 0.5s;
 	padding: 0 15px;
-	background: #040b14;
+	background: rgb(16, 0, 47);
+	background: linear-gradient(
+		180deg,
+		rgba(16, 0, 47, 1) 10%,
+		rgba(9, 9, 121, 1) 70%,
+		rgba(103, 229, 255, 1) 100%
+	);
 	overflow-y: auto;
 }
 
@@ -108,7 +114,7 @@ h6 {
 #header .profile .social-links a {
 	font-size: 18px;
 	display: inline-block;
-	background: #212431;
+	background: #8e9fea;
 	color: #fff;
 	line-height: 1;
 	padding: 8px 0;
@@ -252,12 +258,24 @@ h6 {
 #hero h1 {
 	margin: 0 0 10px 0;
 	font-size: 64px;
-	font-weight: 700;
 	line-height: 56px;
-	color: #fff;
+	position: relative;
+	right: 50%;
+	transform: translate(50%, -50%);
+	text-transform: uppercase;
+	font-family: verdana;
+	font-weight: 700;
+	color: #d0c5ff;
+	text-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+		1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+		1px 7px 1px #919191, 1px 8px 1px #919191, 1px 9px 1px #919191,
+		1px 10px 1px #919191, 1px 18px 6px rgba(16, 16, 16, 0.4),
+		1px 22px 10px rgba(16, 16, 16, 0.2), 1px 25px 35px rgba(16, 16, 16, 0.2),
+		1px 30px 60px rgba(16, 16, 16, 0.4);
 }
 
 #hero p {
+	position: absolute;
 	color: #fff;
 	margin-bottom: 50px;
 	font-size: 26px;
