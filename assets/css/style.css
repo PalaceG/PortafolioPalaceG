@@ -573,6 +573,8 @@ section {
 
 .portfolio .portfolio-wrap {
 	transition: 0.3s;
+	display: flex;
+	justify-content: center;
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
